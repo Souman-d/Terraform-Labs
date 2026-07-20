@@ -1,0 +1,25 @@
+# Ignore Terraform working directories
+**/.terraform/
+
+# Ignore Terraform state files
+**/*.tfstate
+**/*.tfstate.*
+
+# Crash logs
+**/crash.log
+
+# Variable files
+**/terraform.tfvars
+
+# Local tools
+terraform.exe
+
+# Environment file
+.env
+
+# VS Code
+.vscode/
+
+# Keys
+*.pem
+*.key
