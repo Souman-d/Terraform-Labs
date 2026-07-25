@@ -1,25 +1,14 @@
-# Ignore Terraform working directories
-**/.terraform/
-
-# Ignore Terraform state files
-**/*.tfstate
-**/*.tfstate.*
-
-# Crash logs
-**/crash.log
-
-# Variable files
-**/terraform.tfvars
-
-# Local tools
+# Local (.env files containing secrets)
 terraform.exe
-
-# Environment file
 .env
+AzureCLI.msi
 
-# VS Code
-.vscode/
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
 
-# Keys
-*.pem
-*.key
+# Executables and installers
+*.exe
+*.msi
